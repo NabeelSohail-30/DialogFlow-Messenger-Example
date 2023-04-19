@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<style>
+    df-messenger {
+        --df-messenger-bot-message: #878fac;
+        --df-messenger-button-titlebar-color: #df9b56;
+        --df-messenger-chat-background-color: #fafafa;
+        --df-messenger-font-color: white;
+        --df-messenger-send-icon: #878fac;
+        --df-messenger-user-message: #479b3d;
+    }
+</style>
+
+<body>
+    <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+
+    <df-messenger intent="WELCOME" chat-title="Hello World Chatbot" agent-id="36338f28-c076-4d57-90ef-c27ea52b6d55"
+        language-code="en" expand="true"></df-messenger>
+</body>
+
+</html>
